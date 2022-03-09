@@ -1,5 +1,6 @@
 import React from 'react';
+import './Footer.css';
 
 export default function Footer() {
-  return <footer>An Alex Orlet Joint. 2022</footer>;
+  return <footer className='footer'>An Alex Orlet Joint. 2022</footer>;
 }
