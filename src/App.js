@@ -7,7 +7,10 @@ import Header from './components/Header/Header.js';
 
 function App() {
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/ImagefromiOS.jpg)` }}
+    >
       <Header />
       <Main />
       <Footer />
